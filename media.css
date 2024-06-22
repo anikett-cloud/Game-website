@@ -1,0 +1,155 @@
+@media only screen and (max-width: 940px) {
+  .logo {
+    width: 45%;
+    height: 90px;
+    margin-left: 0%;
+    margin-top: 5px;
+    display: block !important;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+  }
+
+  .nav-list {
+    background-color: #03040e;
+    width: 100%;
+    height: 100vh !important;
+    position: fixed;
+    top: -1000px;
+    left: 0;
+    flex-direction: column;
+    bottom: 0px !important;
+    justify-content: center;
+    transition: 0.3s ease-out;
+    background-position: right;
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+    background-image: url(images/logo.png);
+    background-size: 200px 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  .nav-list li {
+    margin: 0px 30px;
+    padding: 40px;
+  }
+
+  .XMARK {
+    display: block !important;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    font-size: 20px;
+  }
+
+  .BARS {
+    display: block !important;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+  }
+
+  .register-button {
+    margin-top: 15%;
+    width: 35%;
+    margin: 30px 40px;
+  }
+
+  .banner-section {
+    height: auto;
+    /* background-color: #fff; */
+  }
+
+  .banner-content-section {
+    margin-top: 0% !important;
+  }
+  .banner-content-section h4 {
+    margin-left: 5.2% !important;
+  }
+
+  .banner-content-section h1 {
+    margin-left: 5.2% !important;
+  }
+
+  .banner-content-section p {
+    margin-left: 5.2% !important;
+  }
+
+  .Popular-games-section {
+    height: auto;
+  }
+
+  .Popular-games-images-section {
+    width: 100% !important;
+    /* background-color: #fff; */
+    margin-left: 0%;
+  }
+  .popular-games-images-box {
+    width: 80%;
+    background-color: #fff;
+    margin: 40px !important;
+  }
+  .Popular-games-section h1 {
+    padding-top: 10%;
+  }
+  .based-on-threaphy-section {
+    height: auto;
+  }
+  .based-on-threaphy-content-section {
+    width: 100%;
+    height: auto;
+    margin-left: 11%;
+  }
+  .based-on-threaphy-logo-div {
+    width: 100%;
+    height: auto;
+  }
+  .based-on-threaphy-div {
+    margin-top: 5%;
+    height: auto;
+  }
+
+  .upcoming-section {
+    height: 600px;
+    /* background-color: #fff; */
+  }
+  .upcoming-section-div {
+    height: auto;
+    width: 100%;
+    margin-left: 0% !important;
+  }
+  .upcoming-section-div img {
+    max-width: 95%;
+  }
+  .watch-more-button {
+    margin-top: 10%;
+  }
+  .number-scrolling-section {
+    height: auto;
+    padding-top: 15%;
+  }
+  .number-scrolling-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-logo {
+    margin-left: 15% !important;
+    margin-top: 15%;
+  }
+
+  .footer-logo img {
+    width: 70%;
+  }
+
+  .footer-section {
+    height: auto;
+  }
+
+  .footer-section p {
+    font-size: 10px;
+  }
+}

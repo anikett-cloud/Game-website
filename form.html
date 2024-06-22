@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="sumbit.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <label for="number">email</label>
+        <input type="email" id="email" name="email-id" required />
+        <br />
+        <label for="file"
+          >file
+          <input type="file" id="file" name="file" />
+        </label>
+
+        <label for="checkbox1">Checkbox 1</label>
+        <input type="checkbox" id="checkbox1" name="check" value="1" /><br />
+
+        <label for="checkbox2">Checkbox 2</label>
+        <input type="checkbox" id="checkbox2" name="check" value="2" /><br />
+
+        <label for="checkbox3">Checkbox 3</label>
+        <input type="checkbox" id="checkbox3" name="check" value="3" /><br />
+
+        <label for="radio">radio</label>
+        <input type="radio" id="radio" name="radio" /> <br />
+
+        <label for="sumbit">sumbit</label>
+        <input type="submit" id="sumbit" name="sumbit" />
+      </form>
+    </div>
+  </body>
+</html>

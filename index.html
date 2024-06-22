@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY GAMING WEBSITE</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media.css" />
+    
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="body-section">
+    
+      <header class="header">
+        <div class="logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <i class="fa-solid fa-bars BARS" onclick="openmenu()"></i>
+        <nav class="navbar">
+          <ul class="nav-list" id="menu">
+            <li>ABOUT</li>
+            <li>EVENTS</li>
+            <li>LOGIN</li>
+            <button class="register-button">REGISTER</button>
+            <i class="fa-solid fa-xmark XMARK" onclick="closemenu()"></i>
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- banner section start -->
+      <section class="banner-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 text-white banner-content-section">
+              <h4 class="ms-5">The Online</h4>
+              <h1 class="ms-5">
+                GAMEPLACE <br />
+                FOR GAMERS
+              </h1>
+              <p class="ms-5">
+                Master your game, conquer the world. Elevate your play <br />
+                let your legend unfurl
+              </p>
+            </div>
+            <div class="col-md-7 image-part">
+              <img
+                src="images/goat.png"
+                class="img-fluid"
+                alt=""
+              
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section Finish -->
+    </section>
+
+    <!-- /Popular-games-section-start -->
+    <section class="Popular-games-section">
+      <h1 class="text-white text-center">Popular Games</h1>
+      <div class="Popular-games-images-section owl-carousel owl-theme">
+        <div class="popular-games-images-box">
+          <img src="images/g1.jpg" alt="" />
+        </div>
+        <div class="popular-games-images-box">
+          <img src="images/preview_rise-of-the-tomb-raider-poster.jpg" alt="" />
+        </div>
+        <div class="popular-games-images-box">
+          <img
+            src="images/wallpapersden.com_apex-legends-4k-gaming-poster_3840x2160.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- /Popular-games-section-finish -->
+
+    <!-- based-on-threaphy-content-section-start -->
+    <section class="based-on-threaphy-section">
+      <div class="based-on-threaphy-content-section">
+        <h2 class="text-white">
+          Based on the most effective <br />
+          threaphy method .
+        </h2>
+        <p class="text-white mt-4">GAMEPLACE FOR GAMERS</p>
+        <p class="text-white">
+          Master your game, conquer the world. Elevate your play let your legend
+          unfurl
+        </p>
+      </div>
+
+      <div class="based-on-threaphy-logo-div">
+        <div class="based-on-threaphy-div">
+          <img src="images/Screenshot 2023-11-01 210326.png" alt="" />
+        </div>
+        <div class="based-on-threaphy-div">
+          <img src="images/Screenshot 2023-11-01 210326.png" alt="" />
+        </div>
+        <div class="based-on-threaphy-div">
+          <img src="images/Screenshot 2023-11-01 210326.png" alt="" />
+        </div>
+      </div>
+
+    </section>
+    <!-- based-on-threaphy-content-section-finisb -->
+
+    <!-- upcoming-section-start -->
+    <section class="upcoming-section">
+      <h1 class="text-center text-white pt-5">UPCOMING MATCH</h1>
+      <p class="text-center text-white">
+        HOME & <span style="color: #e25c0e"> MATCH </span>
+      </p>
+
+      <div class="upcoming-section-div">
+        <img src="images/Desktop - 1 (11).png" alt="" />
+        <img src="images/Desktop - 1 (11).png" alt="" />
+        <img src="images/Desktop - 1 (11).png" alt="" />
+        <button type="button" class="watch-more-button">WATCH MORE</button>
+      </div>
+      
+    </section>
+    <!-- upcoming-section-finish -->
+
+    <!-- article-section-start -->
+    <section class="article-section">
+     
+    </section>
+     <!-- article-section-finish -->
+    <!-- number-scrolling-section-start -->
+    <section class="number-scrolling-section text-white">
+      <div class="number-scrolling-box text-center">
+        <h2>86297</h2>
+        <h4 style="color: #e25c0e">DOWNLOADS</h4>
+      </div>
+      <div class="number-scrolling-box text-center">
+        <h2>6629</h2>
+        <h4 style="color: #e25c0e">LOG IN</h4>
+      </div>
+      <div class="number-scrolling-box text-center">
+        <h2>2000</h2>
+        <h4 style="color: #e25c0e">REGISTERS</h4>
+      </div>
+      <div class="number-scrolling-box text-center">
+        <h2>707</h2>
+        <h4 style="color: #e25c0e">MATCHES</h4>
+      </div>
+    </section>
+    <!-- number-scrolling-section-Finish -->
+
+    
+
+    <!-- footer start -->
+    <footer class="footer-section">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="" class="img-fluid" width="25%">
+      </div>
+      <p style="color: #e25c0e;">Conquer the virtual world, unleash the champion within
+        In every game.</p>
+    </footer>
+    <!-- footer finish -->
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js.js"></script>
+
+ 
+    </script>
+  </body>
+</html>
